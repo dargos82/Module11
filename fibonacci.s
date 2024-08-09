@@ -56,7 +56,7 @@ main:
     #number
     number:	.word 0
 
-    #output prime numbers
+    #output number
     output:	.asciz	"The Fibonacci number of %d is: %d\n"
 
 #END main
