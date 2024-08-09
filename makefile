@@ -5,8 +5,8 @@ CC=gcc
 recMult: recMult.o $(LIB)
 	$(CC) $@.o -g -o $@
 
-//guessNumber: guessNumber.o $(LIB)
-	//$(CC) $@.o $(LIB) -g -o $@
+fibonacci: fibonacci.o $(LIB)
+	//$(CC) $@.o -g -o $@
 
 .s.o:
 	$(CC) $(@:.o=.s) -g -c -o $@
