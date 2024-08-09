@@ -49,15 +49,12 @@ main:
 .data
     #prompt for input
     prompt1:	.asciz  "\nEnter a number: "
- 
-    #prompt for input
-    prompt2:	.asciz  "\nEnter the number of iterations: "
     
-    #format for multiplier
-    numberFormat:	.asciz  "%d"
-   
-    #multiplier
-    number:	.word	0
+    #number format
+    numberFormat:	.asciz	"%d"
+
+    #number
+    number:	.word 0
 
     #output prime numbers
     output:	.asciz	"The Fibonacci number of %d is: %d\n"
